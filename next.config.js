@@ -1,3 +1,5 @@
+console.log(process.env)
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   redirects: async () => [
